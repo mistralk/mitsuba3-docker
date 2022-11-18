@@ -1,5 +1,5 @@
 FROM nvidia/cuda:11.6.2-base-ubuntu20.04
-LABEL maintainer="sohn"
+LABEL maintainer="mistralk"
 
 RUN apt update
 RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get -y install tzdata

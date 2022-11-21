@@ -8,7 +8,7 @@ RUN apt install -y git \
   libpng-dev libjpeg-dev \
   libpython3-dev python3-distutils \
   python3-pytest python3-pytest-xdist python3-numpy \
-  python-is-python3 pip vim \
+  python-is-python3 pip \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
